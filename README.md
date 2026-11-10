@@ -1,6 +1,6 @@
 # Hệ Thống Dịch Máy Anh - Việt (IWSLT 2015): Transformer (PyTorch) vs Seq2Seq Bi-LSTM + Scaled Luong Attention (`tensorflow/nmt`)
 
-Dự án tái hiện (**reimplementation**), huấn luyện và so sánh toàn diện 2 kiến trúc Dịch máy thần kinh (**Neural Machine Translation - NMT**) kinh điển trên bộ dữ liệu song ngữ **English - Vietnamese Parallel Corpus (IWSLT 2015)**:
+Assignment tái hiện (**reimplementation**), huấn luyện và so sánh toàn diện 2 kiến trúc Dịch máy thần kinh (**Neural Machine Translation - NMT**) kinh điển trên bộ dữ liệu song ngữ **English - Vietnamese Parallel Corpus (IWSLT 2015)**:
 
 1. **Case 1 — Mô hình Transformer (`demo_transformer.ipynb` / Vaswani et al., 2017)** bằng **PyTorch**:
    - **Kiến trúc**: 6 tầng Encoder & 6 tầng Decoder ($d_{\text{model}}=512$, $h=8$ Attention Heads, $d_{ff}=2048$, Pre-LayerNorm, Sinusoidal Positional Encoding).
