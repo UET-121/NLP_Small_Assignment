@@ -1,0 +1,137 @@
+[
+  {
+    "index": 0,
+    "source_en": "When I was little , I thought my country was the best on the planet , and I grew up singing a song called &quot; Nothing To Envy . &quot;",
+    "reference_vi": "Khi tôi còn nhỏ, Tôi nghĩ rằng BắcTriều Tiên là đất nước tốt nhất trên thế giới và tôi thường hát bài &quot; Chúng ta chẳng có gì phải ghen tị. &quot;",
+    "transformer_greedy_vi": "khi tôi còn nhỏ, tôi nghĩ đất nước tôi là người giỏi nhất trên hành tinh, và tôi lớn lên một bài hát tên là &quot không có gì để ghen tị. &quot",
+    "transformer_beam_vi": "khi tôi còn nhỏ, tôi nghĩ đất nước tôi là người giỏi nhất trên hành tinh này, và tôi lớn lên một bài hát tên là &quot không có gì để ghen tị. &quot",
+    "nmt_greedy_vi": "khi tôi nhỏ, tôi nghĩ rằng đất nước tôi là người tốt nhất trên hành tinh này, và tôi lớn lên hát hát hát một bài hát &quot không có gì để ghen tị. &quot",
+    "nmt_beam_vi": "khi tôi nhỏ, tôi nghĩ đất nước của mình là tốt nhất trên hành tinh này, và tôi lớn lên hát hát một bài hát tên là &quot không có gì phải ghen tị. &quot"
+  },
+  {
+    "index": 1,
+    "source_en": "And I was very proud .",
+    "reference_vi": "Tôi đã rất tự hào về đất nước tôi.",
+    "transformer_greedy_vi": "và tôi đã rất tự hào.",
+    "transformer_beam_vi": "và tôi đã rất tự hào.",
+    "nmt_greedy_vi": "và tôi rất tự hào.",
+    "nmt_beam_vi": "và tôi rất tự hào."
+  },
+  {
+    "index": 2,
+    "source_en": "In school , we spent a lot of time studying the history of Kim Il-Sung , but we never learned much about the outside world , except that America , South Korea , Japan are the enemies .",
+    "reference_vi": "Ở trường, chúng tôi dành rất nhiều thời gian để học về cuộc đời của chủ tịch Kim II- Sung, nhưng lại không học nhiều về thế giới bên ngoài, ngoại trừ việc Hoa Kỳ, Hàn Quốc và Nhật Bản là kẻ thù của chúng tôi.",
+    "transformer_greedy_vi": "ở trường, chúng tôi đã dành nhiều thời gian nghiên cứu lịch sử kim loại, nhưng chúng tôi chưa bao giờ học được nhiều về thế giới bên ngoài, ngoại trừ nam mỹ, nam hàn quốc là kẻ thù.",
+    "transformer_beam_vi": "trong trường học, chúng tôi dành nhiều thời gian nghiên cứu lịch sử kim loại, nhưng chúng tôi chưa bao giờ biết nhiều về thế giới bên ngoài, ngoại trừ nam mỹ, hàn quốc là kẻ thù.",
+    "nmt_greedy_vi": "ở trường, chúng tôi đã dành rất nhiều thời gian nghiên cứu về lịch sử kim cương kim <unk>, nhưng chúng tôi chưa bao giờ học về thế giới ngoài nước, ngoại trừ nước mỹ, nhật bản là kẻ thù.",
+    "nmt_beam_vi": "trong trường học, chúng tôi đã dành rất nhiều thời gian nghiên cứu về lịch sử kim cương kim <unk> nhưng chúng tôi chưa bao giờ học được nhiều về thế giới, ngoại trừ nước mỹ, nhật bản là kẻ thù."
+  },
+  {
+    "index": 5,
+    "source_en": "My family was not poor , and myself , I had never experienced hunger .",
+    "reference_vi": "Gia đình của tôi không nghèo, và bản thân tôi thì chưa từng phải chịu đói.",
+    "transformer_greedy_vi": "gia đình tôi không nghèo, và tôi chưa bao giờ trải qua cơn đói.",
+    "transformer_beam_vi": "gia đình tôi không nghèo, và bản thân tôi, tôi chưa bao giờ trải qua cơn đói.",
+    "nmt_greedy_vi": "gia đình tôi không nghèo, và tôi cũng không bao giờ có sự đói nghèo.",
+    "nmt_beam_vi": "gia đình tôi không nghèo, và tôi đã không bao giờ trải qua nạn đói."
+  },
+  {
+    "index": 10,
+    "source_en": "This was the first time I heard that people in my country were suffering .",
+    "reference_vi": "Vì đó là lần đầu tiên tôi biết rằng đồng bào của tôi đang phải chịu đựng như vậy.",
+    "transformer_greedy_vi": "đây là lần đầu tiên tôi nghe thấy những người ở đất nước tôi đang phải chịu đựng nhiều đau khổ.",
+    "transformer_beam_vi": "đây là lần đầu tiên tôi nghe thấy những người ở đất nước tôi đang phải chịu đựng nhiều đau khổ.",
+    "nmt_greedy_vi": "đó là lần đầu tiên tôi nghe thấy những người ở đất nước tôi đã bị đau khổ.",
+    "nmt_beam_vi": "đây là lần đầu tiên tôi nghe thấy những người ở đất nước tôi bị đau khổ."
+  },
+  {
+    "index": 15,
+    "source_en": "Ultimately , more than a million North Koreans died during the famine , and many only survived by eating grass , bugs and tree bark .",
+    "reference_vi": "Nó khiến hơn một triệu người Triều Tiên chết trong nạn đói, và nhiều người chỉ sống sót phải ăn cỏ, sâu bọ và vỏ cây.",
+    "transformer_greedy_vi": "cuối cùng, hơn một triệu người bắc triều tiên chết trong thời kỳ này, và nhiều người chết vì nạn đói chỉ ăn cỏ, côn trùng và cây cỏ.",
+    "transformer_beam_vi": "cuối cùng, hơn một triệu người bắc triều tiên chết vì nạn đói, và rất nhiều loài côn trùng ăn cỏ, và cây cỏ.",
+    "nmt_greedy_vi": "cuối cùng, hơn 1 triệu người bắc triều tiên chết trong suốt nạn đói, và nhiều người chỉ sống sót bởi nước ăn cỏ, và cây cối.",
+    "nmt_beam_vi": "cuối cùng, hơn 1 triệu người bắc triều tiên chết trong cơn đói, và nhiều người chỉ sống sót bằng cỏ, côn trùng và cây nấm."
+  },
+  {
+    "index": 25,
+    "source_en": "I could have never imagined that it would take 14 years to live together .",
+    "reference_vi": "chứ không bao giờ tôi có thể tưởng tượng rằng tôi sẽ phải xa họ những 14 năm ròng.",
+    "transformer_greedy_vi": "tôi không bao giờ tưởng tượng được rằng sẽ mất 14 năm để sống cùng nhau.",
+    "transformer_beam_vi": "tôi có thể không bao giờ tưởng tượng được rằng nó sẽ mất 14 năm để sống cùng nhau.",
+    "nmt_greedy_vi": "tôi chưa bao giờ tưởng tượng rằng nó sẽ mất 14 năm để sống cùng nhau.",
+    "nmt_beam_vi": "tôi chưa bao giờ tưởng tượng rằng nó sẽ mất 14 năm để sống cùng nhau."
+  },
+  {
+    "index": 35,
+    "source_en": "She &apos;s not North Korean . &quot;",
+    "reference_vi": "Nó không phải là người Bắc Triều Tiên. &quot;",
+    "transformer_greedy_vi": "bà ấy không phải bắc triều tiên. &quot",
+    "transformer_beam_vi": "cô ấy không phải là bắc triều tiên. &quot",
+    "nmt_greedy_vi": "cô ấy không phải là người hàn quốc.",
+    "nmt_beam_vi": "cô ấy không phải là người hàn quốc. &quot"
+  },
+  {
+    "index": 50,
+    "source_en": "I even went through an identity crisis .",
+    "reference_vi": "Tôi đã trải qua một cuộc khủng hoảng về nguồn gốc của mình.",
+    "transformer_greedy_vi": "tôi thậm chí còn đi qua một cuộc khủng hoảng.",
+    "transformer_beam_vi": "tôi thậm chí còn trải qua một cuộc khủng hoảng danh tính.",
+    "nmt_greedy_vi": "tôi thậm chí còn đi qua một cuộc khủng hoảng.",
+    "nmt_beam_vi": "tôi thậm chí đã trải qua một cuộc khủng hoảng."
+  },
+  {
+    "index": 75,
+    "source_en": "At that moment , I heard one man &apos;s voice ask me , &quot; What &apos;s wrong ? &quot;",
+    "reference_vi": "Đúng vào lúc đó, có một người đàn ông đã hỏi tôi, &quot; Có chuyện gì vậy? &quot;",
+    "transformer_greedy_vi": "lúc đó, tôi nghe một người đàn ông đang hỏi tôi, &quot có gì sai? &quot",
+    "transformer_beam_vi": "lúc đó, tôi nghe một người đàn ông đang hỏi tôi, &quot có gì sai? &quot",
+    "nmt_greedy_vi": "vào lúc đó, tôi đã nghe nói rằng giọng nói của người đàn ông nói &quot sai lầm &quot",
+    "nmt_beam_vi": "vào thời điểm đó, tôi đã nghe giọng nói của người đàn ông, &quot điều gì sai? &quot"
+  },
+  {
+    "index": 100,
+    "source_en": "Samuel is 16 . He &apos;s tall . He &apos;s very handsome .",
+    "reference_vi": "Samuel 16 tuổi. Em cao ráo. Em cũng rất đẹp trai.",
+    "transformer_greedy_vi": "samuel 16 cao 16. ông ấy là người đàn ông, ông ấy rất đẹp trai.",
+    "transformer_beam_vi": "samuel 16 cao 16. ông ấy, ông ấy rất đẹp trai.",
+    "nmt_greedy_vi": "samuel 16. ông cao. anh ta cao.",
+    "nmt_beam_vi": "samuel là 16. ông cao. ông rất đẹp."
+  },
+  {
+    "index": 150,
+    "source_en": "Due to weathering , due to U.V. light , due to oxidation , this binder , this bitumen , the glue between the aggregates is going to shrink , and if it shrinks , it gets micro-cracks , and it delaminates from the aggregates .",
+    "reference_vi": "Dưới tác động của thời tiết, bức xạ mặt trời, tình trạng oxy hoá chất nhựa này, nhựa bitum này chất keo dính giữa các khối kết tập này sẽ co lại, và nếu co lại, nó sẽ có những khe nứt cực nhỏ. rồi tróc ra khỏi các khối kết tập.",
+    "transformer_greedy_vi": "bởi vì <unk>, do thái bình, ánh sáng, do những đường tắt, chất kết dính này, chất keo này sẽ phân biệt giữa các chất keo đông sẽ giảm, nếu nó có thể gây ra các vết nứt, và có thể",
+    "transformer_beam_vi": "bởi vì <unk> <unk>, bởi vì nước mỹ, ánh sáng, bởi vì chất kết dính này, chất kết dính này, chất keo này sẽ phân biệt giữa các sợi nấm, và nếu nó giảm thiểu, và các vết nứt.",
+    "nmt_greedy_vi": "do đó, do <unk>, do <unk>, do <unk>, chất dính, chất dính, chất keo này, dính vào giữa <unk> sẽ bị teo, và nó sẽ bị hỏng, và nó được phát triển từ <unk>.",
+    "nmt_beam_vi": "do đó, vì <unk> <unk>, do chất lỏng, chất dính, chất dính, chất keo này, chất dính giữa <unk> <unk>, và nó sẽ vỡ vụn, và nó trở nên khó khăn."
+  },
+  {
+    "index": 200,
+    "source_en": "I would have told you myself that I was the last person on Earth who would stay with a man who beats me , but in fact I was a very typical victim because of my age .",
+    "reference_vi": "Tôi đã tự nhủ bản thân mình, tôi là người còn lại trên trái đất chung sống với người đàn ông đã đánh mình, nhưng thật ra, tôi là một nạn nhân điển hình do độ tuổi của tôi.",
+    "transformer_greedy_vi": "tôi sẽ tự nhủ với các bạn rằng tôi là người cuối cùng trên trái đất sẽ ở cùng với một người đàn ông bị nhịp đập, nhưng thực tế tôi là một kẻ rất điển hình vì tuổi của tôi.",
+    "transformer_beam_vi": "tôi sẽ tự nhủ với các bạn rằng tôi là người cuối cùng trên trái đất sẽ ở cùng với một người đàn ông, nhưng thực ra tôi là một nạn nhân điển hình vì tuổi của tôi.",
+    "nmt_greedy_vi": "tôi sẽ nói với bạn rằng tôi là người cuối cùng ở trái đất đang ở trên trái đất, nhưng thực tế tôi là một người đánh đập rất quan trọng vì thời đại của tôi.",
+    "nmt_beam_vi": "tôi đã nói với các bạn rằng tôi là người cuối cùng trên trái đất sẽ có một người đàn ông đánh đập, nhưng thực tế tôi là một nạn nhân rất điển hình bởi vì tôi là một nạn nhân rất điển hình."
+  },
+  {
+    "index": 300,
+    "source_en": "MPs do not help to prevent the spread of diseases .",
+    "reference_vi": "Quân cảnh không giúp ngăn chặn sự lây lan của bệnh tật.",
+    "transformer_greedy_vi": "<unk> không giúp ngăn chặn bệnh truyền nhiễm.",
+    "transformer_beam_vi": "<unk> <unk> không giúp ngăn chặn các bệnh truyền nhiễm.",
+    "nmt_greedy_vi": "<unk> không giúp giúp ngăn chặn bệnh tật.",
+    "nmt_beam_vi": "<unk> không giúp giúp ngăn chặn bệnh tật."
+  },
+  {
+    "index": 400,
+    "source_en": "Hi . This is my mobile phone .",
+    "reference_vi": "Xin chào. Đây là chiếc điện thoại di động của tôi.",
+    "transformer_greedy_vi": "xin chào. đây là điện thoại di động của tôi.",
+    "transformer_beam_vi": "xin chào. đây là chiếc điện thoại di động của tôi.",
+    "nmt_greedy_vi": "xin chào. đây là điện thoại di động của tôi.",
+    "nmt_beam_vi": "xin chào. đây là điện thoại di động của tôi."
+  }
+]

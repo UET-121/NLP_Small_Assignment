@@ -1,0 +1,332 @@
+{
+  "dataset": {
+    "name": "IWSLT 2015 English-Vietnamese Parallel Corpus",
+    "train_raw_pairs": 122206,
+    "train_filtered_pairs": 122206,
+    "dev_pairs_tst2012": 1553,
+    "test_pairs_tst2013": 1268,
+    "src_vocab_size": 17200,
+    "trg_vocab_size": 7666,
+    "max_strlen": 50
+  },
+  "case1_transformer_pytorch": {
+    "architecture": "Transformer (6 Encoder + 6 Decoder layers, d_model=512, heads=8, d_ff=2048, Pre-LN, Sinusoidal PE)",
+    "optimizer": "Noam ScheduledOptim (Adam betas=(0.9, 0.98), warmup=4000, lr_mul=2.0) + LabelSmoothing(0.1)",
+    "parameters": 60804594,
+    "avg_epoch_time_s": 193.55,
+    "total_train_time_s": 1935.49,
+    "test_loss": 2.0987,
+    "test_ppl": 8.155,
+    "greedy_decode_time_s": 41.23,
+    "greedy_ms_per_sentence": 32.51,
+    "beam_decode_time_s": 420.62,
+    "beam_ms_per_sentence": 331.72,
+    "metrics_greedy": {
+      "bleu": 0.243,
+      "bleu_percent": 24.3,
+      "sacrebleu": 24.3,
+      "bleu_1": 55.42,
+      "bleu_2": 41.51,
+      "bleu_3": 31.6,
+      "bleu_4": 24.3
+    },
+    "metrics_beam_k5": {
+      "bleu": 0.2596,
+      "bleu_percent": 25.96,
+      "sacrebleu": 25.96,
+      "bleu_1": 57.33,
+      "bleu_2": 43.37,
+      "bleu_3": 33.36,
+      "bleu_4": 25.96
+    },
+    "length_buckets": [
+      {
+        "bucket": "< 10",
+        "count": 231,
+        "bleu_pct": 31.15
+      },
+      {
+        "bucket": "10 - 19",
+        "count": 454,
+        "bleu_pct": 29.9
+      },
+      {
+        "bucket": "20 - 29",
+        "count": 295,
+        "bleu_pct": 26.97
+      },
+      {
+        "bucket": "30 - 39",
+        "count": 156,
+        "bleu_pct": 26.19
+      },
+      {
+        "bucket": ">= 40",
+        "count": 132,
+        "bleu_pct": 19.08
+      }
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.8405,
+        "valid_loss": 4.7418,
+        "valid_ppl": 114.642,
+        "valid_bleu": 0.0444,
+        "valid_bleu_pct": 4.44,
+        "time_s": 170.05,
+        "lr": 0.000334
+      },
+      {
+        "epoch": 2,
+        "train_loss": 4.1504,
+        "valid_loss": 3.9137,
+        "valid_ppl": 50.082,
+        "valid_bleu": 0.1304,
+        "valid_bleu_pct": 13.04,
+        "time_s": 184.82,
+        "lr": 0.000667
+      },
+      {
+        "epoch": 3,
+        "train_loss": 3.5864,
+        "valid_loss": 3.6605,
+        "valid_ppl": 38.882,
+        "valid_bleu": 0.1684,
+        "valid_bleu_pct": 16.84,
+        "time_s": 190.01,
+        "lr": 0.001001
+      },
+      {
+        "epoch": 4,
+        "train_loss": 3.3891,
+        "valid_loss": 3.6194,
+        "valid_ppl": 37.316,
+        "valid_bleu": 0.1675,
+        "valid_bleu_pct": 16.75,
+        "time_s": 191.09,
+        "lr": 0.001335
+      },
+      {
+        "epoch": 5,
+        "train_loss": 3.2808,
+        "valid_loss": 3.5056,
+        "valid_ppl": 33.3,
+        "valid_bleu": 0.1821,
+        "valid_bleu_pct": 18.21,
+        "time_s": 190.27,
+        "lr": 0.001279
+      },
+      {
+        "epoch": 6,
+        "train_loss": 3.1,
+        "valid_loss": 3.3989,
+        "valid_ppl": 29.932,
+        "valid_bleu": 0.2005,
+        "valid_bleu_pct": 20.05,
+        "time_s": 187.29,
+        "lr": 0.001168
+      },
+      {
+        "epoch": 7,
+        "train_loss": 2.9541,
+        "valid_loss": 3.3249,
+        "valid_ppl": 27.796,
+        "valid_bleu": 0.2045,
+        "valid_bleu_pct": 20.45,
+        "time_s": 181.67,
+        "lr": 0.001081
+      },
+      {
+        "epoch": 8,
+        "train_loss": 2.831,
+        "valid_loss": 3.28,
+        "valid_ppl": 26.575,
+        "valid_bleu": 0.2213,
+        "valid_bleu_pct": 22.13,
+        "time_s": 183.52,
+        "lr": 0.001011
+      },
+      {
+        "epoch": 9,
+        "train_loss": 2.7285,
+        "valid_loss": 3.2618,
+        "valid_ppl": 26.097,
+        "valid_bleu": 0.2174,
+        "valid_bleu_pct": 21.74,
+        "time_s": 212.65,
+        "lr": 0.000953
+      },
+      {
+        "epoch": 10,
+        "train_loss": 2.6416,
+        "valid_loss": 3.241,
+        "valid_ppl": 25.559,
+        "valid_bleu": 0.2296,
+        "valid_bleu_pct": 22.96,
+        "time_s": 244.12,
+        "lr": 0.000904
+      }
+    ]
+  },
+  "case2_nmt_tensorflow": {
+    "architecture": "Seq2Seq 2-Layer LSTM (Bi-LSTM Encoder + 2-Layer Decoder + Scaled Luong Attention, units=512, dropout=0.2)",
+    "optimizer": "Adam (lr=1e-3, clipnorm=5.0, decay=0.5x after epoch 6)",
+    "parameters": 25315328,
+    "avg_epoch_time_s": 73.45,
+    "total_train_time_s": 734.5,
+    "test_loss": 2.348,
+    "test_ppl": 10.465,
+    "greedy_decode_time_s": 4.22,
+    "greedy_ms_per_sentence": 3.33,
+    "beam_decode_time_s": 329.08,
+    "beam_ms_per_sentence": 259.52,
+    "metrics_greedy": {
+      "bleu": 0.2207,
+      "bleu_percent": 22.07,
+      "sacrebleu": 22.07,
+      "bleu_1": 53.14,
+      "bleu_2": 38.98,
+      "bleu_3": 29.15,
+      "bleu_4": 22.07
+    },
+    "metrics_beam_k5": {
+      "bleu": 0.2361,
+      "bleu_percent": 23.61,
+      "sacrebleu": 23.61,
+      "bleu_1": 53.24,
+      "bleu_2": 40.11,
+      "bleu_3": 30.65,
+      "bleu_4": 23.61
+    },
+    "length_buckets": [
+      {
+        "bucket": "< 10",
+        "count": 231,
+        "bleu_pct": 29.55
+      },
+      {
+        "bucket": "10 - 19",
+        "count": 454,
+        "bleu_pct": 26.11
+      },
+      {
+        "bucket": "20 - 29",
+        "count": 295,
+        "bleu_pct": 24.63
+      },
+      {
+        "bucket": "30 - 39",
+        "count": 156,
+        "bleu_pct": 23.96
+      },
+      {
+        "bucket": ">= 40",
+        "count": 132,
+        "bleu_pct": 18.52
+      }
+    ],
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 5.4946,
+        "valid_loss": 4.6816,
+        "valid_ppl": 107.941,
+        "valid_bleu": 0.0091,
+        "valid_bleu_pct": 0.91,
+        "time_s": 75.33,
+        "lr": 0.001
+      },
+      {
+        "epoch": 2,
+        "train_loss": 3.9071,
+        "valid_loss": 3.4301,
+        "valid_ppl": 30.881,
+        "valid_bleu": 0.0542,
+        "valid_bleu_pct": 5.42,
+        "time_s": 66.15,
+        "lr": 0.001
+      },
+      {
+        "epoch": 3,
+        "train_loss": 3.1061,
+        "valid_loss": 2.9875,
+        "valid_ppl": 19.835,
+        "valid_bleu": 0.1093,
+        "valid_bleu_pct": 10.93,
+        "time_s": 64.83,
+        "lr": 0.001
+      },
+      {
+        "epoch": 4,
+        "train_loss": 2.7394,
+        "valid_loss": 2.7981,
+        "valid_ppl": 16.413,
+        "valid_bleu": 0.1449,
+        "valid_bleu_pct": 14.49,
+        "time_s": 81.71,
+        "lr": 0.001
+      },
+      {
+        "epoch": 5,
+        "train_loss": 2.5218,
+        "valid_loss": 2.6892,
+        "valid_ppl": 14.72,
+        "valid_bleu": 0.1635,
+        "valid_bleu_pct": 16.35,
+        "time_s": 82.37,
+        "lr": 0.001
+      },
+      {
+        "epoch": 6,
+        "train_loss": 2.3757,
+        "valid_loss": 2.6186,
+        "valid_ppl": 13.716,
+        "valid_bleu": 0.1769,
+        "valid_bleu_pct": 17.69,
+        "time_s": 78.88,
+        "lr": 0.001
+      },
+      {
+        "epoch": 7,
+        "train_loss": 2.1941,
+        "valid_loss": 2.5613,
+        "valid_ppl": 12.952,
+        "valid_bleu": 0.1853,
+        "valid_bleu_pct": 18.53,
+        "time_s": 84.35,
+        "lr": 0.0005
+      },
+      {
+        "epoch": 8,
+        "train_loss": 2.0931,
+        "valid_loss": 2.5543,
+        "valid_ppl": 12.862,
+        "valid_bleu": 0.1921,
+        "valid_bleu_pct": 19.21,
+        "time_s": 66.52,
+        "lr": 0.00025
+      },
+      {
+        "epoch": 9,
+        "train_loss": 2.0414,
+        "valid_loss": 2.5526,
+        "valid_ppl": 12.841,
+        "valid_bleu": 0.2089,
+        "valid_bleu_pct": 20.89,
+        "time_s": 63.73,
+        "lr": 0.000125
+      },
+      {
+        "epoch": 10,
+        "train_loss": 2.0146,
+        "valid_loss": 2.5466,
+        "valid_ppl": 12.763,
+        "valid_bleu": 0.208,
+        "valid_bleu_pct": 20.8,
+        "time_s": 70.63,
+        "lr": 6.3e-05
+      }
+    ]
+  }
+}
